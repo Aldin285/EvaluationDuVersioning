@@ -1,10 +1,18 @@
-user-echo:
-    stage: build
-    script:
-        - echo "Hello, $USERNAME"
- 
-test-job:
-    stage: test
-    script:
-        - echo "This is the branch name, $BRANCH"
- 
+name: Creation pipeline
+
+on: push
+
+jobs:
+  build:
+    name: Affichage username
+    runs-on: ubuntu-latest
+    steps:
+      - name: Afficher le nom d'utilisateur
+        run: echo "username = $USERNAME"
+
+  test:
+    name: Affichage branch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Afficher la branche actuelle
+        run: echo "La branche actuelle = $GITHUB_REF_NAME"
