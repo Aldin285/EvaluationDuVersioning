@@ -4,8 +4,8 @@ const books = [
     "author": "Antoine de Saint-Exupéry"
   },
   {
-    "title": "1984",
-    "author": "George Orwell"
+    "title": "Le crime de l'Orient-Express",
+    "author": "Agatha Christie"
   },
   {
     "title": "Les Misérables",
