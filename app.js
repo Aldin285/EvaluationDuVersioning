@@ -16,7 +16,7 @@ function renderBooks() {
     const actionsTd = document.createElement('td');
 
     const editBtn = document.createElement('button');
-    editBtn.textContent = "Modifier les données";
+    editBtn.textContent = "Modifier les donnéesuu";
 
     const input = document.createElement('input');
     input.type = 'text';
