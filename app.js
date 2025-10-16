@@ -16,7 +16,7 @@ function renderBooks() {
     const actionsTd = document.createElement('td');
 
     const editBtn = document.createElement('button');
-    editBtn.textContent = "Changer contenu";
+    editBtn.textContent = "Modifier les données";
 
     const input = document.createElement('input');
     input.type = 'text';
@@ -33,8 +33,8 @@ function renderBooks() {
       
     };
 
-    actionsTd.appendChild(input);
     actionsTd.appendChild(editBtn);
+    actionsTd.appendChild(input);
 
     tr.appendChild(actionsTd);
 
