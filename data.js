@@ -8,7 +8,7 @@ const books = [
     "author": "George Orwell"
   },
   {
-    "title": "Némésis",
+    "title": "Le mystère de Listerdale",
     "author": "Agatha Christie"
   }
 ];
