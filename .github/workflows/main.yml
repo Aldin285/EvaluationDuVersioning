@@ -1,0 +1,10 @@
+user-echo:
+    stage: build
+    script:
+        - echo "Hello, $USERNAME"
+ 
+test-job:
+    stage: test
+    script:
+        - echo "This is the branch name, $BRANCH"
+ 
